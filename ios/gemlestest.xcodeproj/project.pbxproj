@@ -12,6 +12,11 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		3B4CB4EF29E273CD008F0823 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CB4EE29E273CD008F0823 /* Counter.swift */; };
+		3B4CB4F129E2747F008F0823 /* Counter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CB4F029E2747F008F0823 /* Counter.m */; };
+		3B4CB4F329E27B0C008F0823 /* GemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CB4F229E27B0C008F0823 /* GemView.swift */; };
+		3B4CB4F529E27C28008F0823 /* GemViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CB4F429E27C28008F0823 /* GemViewRepresentable.swift */; };
+		3B4CB4F729E27CF7008F0823 /* GemViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CB4F629E27CF7008F0823 /* GemViewManager.swift */; };
 		3B94445429E2208500C34054 /* RNTMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B94445329E2208500C34054 /* RNTMapManager.m */; };
 		7699B88040F8A987B510C191 /* libPods-gemlestest-gemlestestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-gemlestest-gemlestestTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -39,6 +44,12 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = gemlestest/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-gemlestest-gemlestestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gemlestest-gemlestestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-gemlestest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gemlestest.debug.xcconfig"; path = "Target Support Files/Pods-gemlestest/Pods-gemlestest.debug.xcconfig"; sourceTree = "<group>"; };
+		3B4CB4ED29E273CD008F0823 /* gemlestest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gemlestest-Bridging-Header.h"; sourceTree = "<group>"; };
+		3B4CB4EE29E273CD008F0823 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		3B4CB4F029E2747F008F0823 /* Counter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Counter.m; sourceTree = "<group>"; };
+		3B4CB4F229E27B0C008F0823 /* GemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemView.swift; sourceTree = "<group>"; };
+		3B4CB4F429E27C28008F0823 /* GemViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemViewRepresentable.swift; sourceTree = "<group>"; };
+		3B4CB4F629E27CF7008F0823 /* GemViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemViewManager.swift; sourceTree = "<group>"; };
 		3B94445329E2208500C34054 /* RNTMapManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RNTMapManager.m; path = gemlestest/RNTMapManager.m; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-gemlestest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gemlestest.release.xcconfig"; path = "Target Support Files/Pods-gemlestest/Pods-gemlestest.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-gemlestest-gemlestestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gemlestest-gemlestestTests.debug.xcconfig"; path = "Target Support Files/Pods-gemlestest-gemlestestTests/Pods-gemlestest-gemlestestTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +106,12 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				3B4CB4EE29E273CD008F0823 /* Counter.swift */,
+				3B4CB4F229E27B0C008F0823 /* GemView.swift */,
+				3B4CB4ED29E273CD008F0823 /* gemlestest-Bridging-Header.h */,
+				3B4CB4F029E2747F008F0823 /* Counter.m */,
+				3B4CB4F429E27C28008F0823 /* GemViewRepresentable.swift */,
+				3B4CB4F629E27CF7008F0823 /* GemViewManager.swift */,
 			);
 			name = gemlestest;
 			sourceTree = "<group>";
@@ -210,7 +227,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -415,8 +432,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4CB4EF29E273CD008F0823 /* Counter.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				3B94445429E2208500C34054 /* RNTMapManager.m in Sources */,
+				3B4CB4F129E2747F008F0823 /* Counter.m in Sources */,
+				3B4CB4F329E27B0C008F0823 /* GemView.swift in Sources */,
+				3B4CB4F529E27C28008F0823 /* GemViewRepresentable.swift in Sources */,
+				3B4CB4F729E27CF7008F0823 /* GemViewManager.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-gemlestest-gemlestestTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -463,6 +486,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-gemlestest-gemlestestTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = gemlestestTests/Info.plist;
@@ -490,8 +514,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52L4X98H24;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = gemlestest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -504,6 +530,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = gemlestest;
+				SWIFT_OBJC_BRIDGING_HEADER = "gemlestest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -517,7 +544,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52L4X98H24;
 				INFOPLIST_FILE = gemlestest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -530,6 +559,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = gemlestest;
+				SWIFT_OBJC_BRIDGING_HEADER = "gemlestest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
